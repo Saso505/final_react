@@ -2,7 +2,7 @@
 
 import React, { useContext, useEffect, useState, useRef } from "react";
 import style from "./Navbar.module.css";
-import navLogo from "../../assets/navLogo.png";
+import navLogo from '../../assets/team/navlogo.png';
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { SectionId } from "../sectionId/Section";
 import { UserContext } from "../../Context/UserContext";
