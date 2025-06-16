@@ -1,0 +1,42 @@
+.startGlassB {
+    background: linear-gradient(135deg, rgba(20, 7, 96, 0.419), #ffffff0d);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.stopGlassB {
+    background: linear-gradient(135deg, rgba(236, 100, 100, 0.385), rgba(223, 103, 103, 0.05));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.submitGlassB {
+    background: linear-gradient(135deg, #0c9ddcdb, #02293a69);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.startGlassB:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+
+
+}
+
+.stopGlassB:hover {
+    background: linear-gradient(135deg, rgba(114, 29, 29, 0.5), rgba(255, 255, 255, 0.1));
+
+
+}
+
+.submitGlassB:hover {
+    background: linear-gradient(135deg, #0c9ddcf4, rgba(2, 41, 58, 0.41));
+
+
+}

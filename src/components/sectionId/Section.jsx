@@ -1,0 +1,1 @@
+export const SectionId=["Service" ,"Feature","Team","Contact"];

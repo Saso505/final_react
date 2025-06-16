@@ -1,0 +1,17 @@
+
+.videoGlassB {
+    background: linear-gradient(135deg, rgba(212, 207, 243, 0.711), rgba(255, 255, 255, 0.05));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.videoGlassB:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+
+
+}

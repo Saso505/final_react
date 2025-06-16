@@ -1,0 +1,25 @@
+.bgmessage {
+   
+
+    background: #6472baa5;; 
+  
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      backdrop-filter: blur(10px); /* Frosted-glass blur effect */
+      -webkit-backdrop-filter: blur(10px);
+      /* For Safari support */
+     
+  }
+  .submitGlassB {
+    background: linear-gradient(135deg, rgba(12, 157, 220, 0.858), rgba(2, 41, 58, 0.41));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+  
+.submitGlassB:hover {
+  background: linear-gradient(135deg, rgba(12, 157, 220, 0.958), rgba(2, 41, 58, 0.41));
+
+
+}

@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+    .responsiveimage {
+        max-width: 50%;
+        /* Adjust for larger screens */
+    }
+}
+
+.loader {
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(0deg, rgba(239, 233, 231, 0.2) 33%, #6f00ff 100%);
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+.loader::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #cee1ea;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
